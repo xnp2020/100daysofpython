@@ -1,0 +1,30 @@
+{
+    "hosts": [
+        {
+            "ip": "192.168.2.30",
+            "port": 8010,
+            "valid": true,
+            "healthy": true,
+            "marked": false,
+            "instanceId": "192.168.2.30#8010#DEFAULT#DEFAULT_GROUP@@cdzm-api",
+            "metadata": {
+                "management.endpoints.web.base-path": "/manager",
+                "preserved.register.source": "SPRING_CLOUD"
+            },
+            "enabled": true,
+            "weight": 1.0,
+            "clusterName": "DEFAULT",
+            "serviceName": "cdzm-api",
+            "ephemeral": true
+        }
+    ],
+    "dom": "cdzm-api",
+    "name": "DEFAULT_GROUP@@cdzm-api",
+    "cacheMillis": 3000,
+    "lastRefTime": 1659362942241,
+    "checksum": "892e011c6de8e6af671916c135f95b09",
+    "useSpecifiedURL": false,
+    "clusters": "",
+    "env": "",
+    "metadata": {}
+}
